@@ -1,0 +1,103 @@
+// typeOf
+/*
+
+  Você pode usar o typeof para verificar o tipo de um valor antes de adicioná-lo ao array.
+
+Exemplo: Apenas números
+javascript
+Copiar
+Editar
+let array = [];
+let value = 5;
+
+if (typeof value === 'number') {
+  array.push(value);
+} else {
+  console.log("Valor não é um número.");
+}
+
+console.log(array);  // [5]
+
+Exemplo: Apenas strings
+javascript
+Copiar
+Editar
+let array = [];
+let value = "Hello";
+
+if (typeof value === 'string') {
+  array.push(value);
+} else {
+  console.log("Valor não é uma string.");
+}
+
+console.log(array);  // ["Hello"]
+
+*/
+
+// --------------------------------------------
+
+// filter()
+/* 
+
+Usando Array.filter() para filtrar os tipos:
+Se você tiver um array já existente e quiser filtrar para que ele contenha apenas elementos de um tipo específico, você pode usar o método filter().
+
+Exemplo: Filtrando apenas números de um array:
+javascript
+Copiar
+Editar
+let array = [1, "hello", 2, true, 3, "world"];
+let filteredArray = array.filter(item => typeof item === 'number');
+
+console.log(filteredArray);  // [1, 2, 3]
+
+*/
+
+// ----------------------------------------
+
+// reduce()
+/* 
+
+  Usando Array.reduce() para construir um array com tipo específico:
+Você também pode usar o reduce() para adicionar apenas valores de um tipo específico ao array.
+
+javascript
+Copiar
+Editar
+let array = [1, "apple", 3, "banana", 5];
+let onlyNumbers = array.reduce((acc, item) => {
+  if (typeof item === 'number') {
+    acc.push(item);
+  }
+  return acc;
+}, []);
+
+console.log(onlyNumbers);  // [1, 3, 5]
+
+*/
+
+//  Função para adicionar apenas valores de um tipo específico:
+
+/* 
+
+  function addOnlyType(arr, value, type) {
+  if (typeof value === type) {
+    arr.push(value);
+  } else {
+    console.log(`Valor não é do tipo ${type}.`);
+  }
+}
+
+let myArray = [];
+addOnlyType(myArray, 42, 'number');
+addOnlyType(myArray, 'Hello', 'string');  // Vai mostrar um aviso
+console.log(myArray);  // [42]
+
+*/
+
+/*
+Você pode usar typeof para verificar o tipo de dados antes de adicionar ao array.
+
+Métodos como filter() ou reduce() são úteis para garantir que um array contenha apenas valores de um tipo específico.
+*/
