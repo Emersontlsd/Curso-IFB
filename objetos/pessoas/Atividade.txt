@@ -1,0 +1,9 @@
+Esta atividade tem por objetivo avaliar a evolução dos alunos no tocante as conteúdos relativos à JavaScript Básico e Orientação a Objetos em JavaScript. 
+
+Construir  os códigos descritos a seguir, bem como disponibilizar em repositório do GitHub (o link, no github.com, para os códigos  produzidos deve ser a única resposta para atividade):
+
+Todos os códigos de exemplo (disponíveis nas apostilas) produzidos ou descritos em sala de aula;
+Desenvolvimento das classes PFDAO.mjs e AlunoDAO.mjs, constando os métodos toJSON(), saveJSON e recoveryJSON(), conforme o exemplo PJDAO.mjs;
+Desenvolvimento dos códigos  usaPFDAO.mjs e usaAlunoDAO.mjs, conforme o exemplo usaPJDAO.mjs ;
+ 
+OBS : quaisquer comentários e observações  adicionais relativas a tarefa devem estar definida no arquivo README.md, na raiz do repositório.
