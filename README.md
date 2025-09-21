@@ -5,3 +5,6 @@
 
 
 [Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/Emersontlsd/Curso-IFB)
+
+### Atualização dia 21/09/2025
+#### Criada e finalizada as classes, PFDAO.mjs e usaPFDAO.mjs. Além de dar início a classe AlunoDAO.mjs
