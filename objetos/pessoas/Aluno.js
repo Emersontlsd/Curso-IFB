@@ -21,7 +21,7 @@ class Aluno extends PF {
   }
 
   setCurso(curso) {
-    if (curso === 'ADS' || curso === 'SI') {
+    if (curso) { // (curso === 'ADS' || curso === 'SI')
       this.curso = curso;
       return true;
     } else {
